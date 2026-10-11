@@ -1,0 +1,84 @@
+name: Publish release
+
+on:
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: Existing version tag to publish, such as v1.0.0
+        required: true
+        type: string
+
+permissions:
+  contents: read
+
+concurrency:
+  group: publish-release-${{ inputs.tag }}
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-24.04
+    permissions:
+      contents: write
+    env:
+      RELEASE_TAG: ${{ inputs.tag }}
+    steps:
+      - name: Validate version input
+        shell: bash
+        run: |
+          [[ "$RELEASE_TAG" =~ ^v[0-9]+\.[0-9]+\.[0-9]+$ ]] || {
+            echo "Expected a semantic version tag such as v1.0.0."
+            exit 1
+          }
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          ref: ${{ inputs.tag }}
+          persist-credentials: false
+      - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
+        with:
+          node-version: "24"
+      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
+        with:
+          python-version: "3.12"
+      - name: Install validation dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install --yes libicu-dev
+          python3 -m pip install --requirement requirements.txt
+      - name: Verify version and release notes
+        run: |
+          node -e 'const c=require("./syntax.config.json"); if ("v"+c.version !== process.env.RELEASE_TAG) process.exit(1)'
+          test -f "docs/RELEASE_NOTES_${RELEASE_TAG}.md"
+      - name: Build and validate tagged source
+        run: |
+          npm run package
+          git diff --exit-code -- Nushell.cotsyntax Nushell.yml build-manifest.json
+      - name: Publish verified downloads
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          notes="docs/RELEASE_NOTES_${RELEASE_TAG}.md"
+          if gh release view "$RELEASE_TAG" --repo "$GITHUB_REPOSITORY" --json isDraft --jq .isDraft > .build/release-state; then
+            if [[ "$(cat .build/release-state)" != "true" ]]; then
+              echo "Refusing to modify an already published release."
+              exit 1
+            fi
+            gh release upload "$RELEASE_TAG" dist/Nushell.cotsyntax.zip dist/Nushell.yml \
+              --repo "$GITHUB_REPOSITORY"
+            gh release edit "$RELEASE_TAG" --repo "$GITHUB_REPOSITORY" \
+              --title "Nushell syntax for CotEditor ${RELEASE_TAG#v}" \
+              --notes-file "$notes" --draft=false --latest
+          else
+            gh release create "$RELEASE_TAG" dist/Nushell.cotsyntax.zip dist/Nushell.yml \
+              --repo "$GITHUB_REPOSITORY" --verify-tag --latest \
+              --title "Nushell syntax for CotEditor ${RELEASE_TAG#v}" --notes-file "$notes"
+          fi
+      - name: Verify uploaded asset contents
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release download "$RELEASE_TAG" --repo "$GITHUB_REPOSITORY" \
+            --pattern Nushell.cotsyntax.zip --pattern Nushell.yml --dir .build/release-downloads
+          cmp dist/Nushell.cotsyntax.zip .build/release-downloads/Nushell.cotsyntax.zip
+          cmp dist/Nushell.yml .build/release-downloads/Nushell.yml
+          sha256sum .build/release-downloads/Nushell.cotsyntax.zip .build/release-downloads/Nushell.yml

@@ -37,3 +37,5 @@ The personal repository is `rtgibbons/coteditor-nushell`. Pushing the source rep
 For a GitHub release, build and validate, review available manual-test evidence, create an annotated matching version tag, and attach `dist/Nushell.cotsyntax.zip` and `dist/Nushell.yml`. Keep these asset names stable so the README's latest-release download links continue to work.
 
 Use `gh release create` with `--verify-tag`, the exact tag, and the version's release-notes file. Verify downloaded asset hashes against the local files after publication. Manual testing was reported for the initial release, but version details were not supplied; do not describe it as automated or version-specific macOS validation.
+
+Alternatively, dispatch the `Publish release` workflow with an existing version tag. It checks out that exact tag, verifies the configured version and notes, builds and tests the assets, and publishes using a repository-scoped GitHub Actions token. It can finish a draft release but refuses to modify an already published one; uploaded downloads are compared byte-for-byte with the build output.
