@@ -1,0 +1,2390 @@
+[
+  {
+    "text": "abbr"
+  },
+  {
+    "text": "abbr list"
+  },
+  {
+    "text": "alias"
+  },
+  {
+    "text": "all"
+  },
+  {
+    "text": "ansi"
+  },
+  {
+    "text": "ansi gradient"
+  },
+  {
+    "text": "ansi link"
+  },
+  {
+    "text": "ansi strip"
+  },
+  {
+    "text": "any"
+  },
+  {
+    "text": "append"
+  },
+  {
+    "text": "ast"
+  },
+  {
+    "text": "attr"
+  },
+  {
+    "text": "attr category"
+  },
+  {
+    "text": "attr complete"
+  },
+  {
+    "text": "attr complete external"
+  },
+  {
+    "text": "attr deprecated"
+  },
+  {
+    "text": "attr example"
+  },
+  {
+    "text": "attr interactive"
+  },
+  {
+    "text": "attr search-terms"
+  },
+  {
+    "text": "binary"
+  },
+  {
+    "text": "bits"
+  },
+  {
+    "text": "bits and"
+  },
+  {
+    "text": "bits not"
+  },
+  {
+    "text": "bits or"
+  },
+  {
+    "text": "bits rol"
+  },
+  {
+    "text": "bits ror"
+  },
+  {
+    "text": "bits shl"
+  },
+  {
+    "text": "bits shr"
+  },
+  {
+    "text": "bits xor"
+  },
+  {
+    "text": "bool"
+  },
+  {
+    "text": "break"
+  },
+  {
+    "text": "bytes"
+  },
+  {
+    "text": "bytes add"
+  },
+  {
+    "text": "bytes at"
+  },
+  {
+    "text": "bytes build"
+  },
+  {
+    "text": "bytes collect"
+  },
+  {
+    "text": "bytes ends-with"
+  },
+  {
+    "text": "bytes index-of"
+  },
+  {
+    "text": "bytes length"
+  },
+  {
+    "text": "bytes remove"
+  },
+  {
+    "text": "bytes replace"
+  },
+  {
+    "text": "bytes reverse"
+  },
+  {
+    "text": "bytes split"
+  },
+  {
+    "text": "bytes starts-with"
+  },
+  {
+    "text": "cal"
+  },
+  {
+    "text": "cd"
+  },
+  {
+    "text": "cell-path"
+  },
+  {
+    "text": "char"
+  },
+  {
+    "text": "chunk-by"
+  },
+  {
+    "text": "chunks"
+  },
+  {
+    "text": "clear"
+  },
+  {
+    "text": "clip"
+  },
+  {
+    "text": "clip copy"
+  },
+  {
+    "text": "clip paste"
+  },
+  {
+    "text": "closure"
+  },
+  {
+    "text": "collect"
+  },
+  {
+    "text": "columns"
+  },
+  {
+    "text": "combinations"
+  },
+  {
+    "text": "commandline"
+  },
+  {
+    "text": "commandline complete"
+  },
+  {
+    "text": "commandline edit"
+  },
+  {
+    "text": "commandline get-cursor"
+  },
+  {
+    "text": "commandline set-cursor"
+  },
+  {
+    "text": "commandline set-prompt"
+  },
+  {
+    "text": "compact"
+  },
+  {
+    "text": "complete"
+  },
+  {
+    "text": "config"
+  },
+  {
+    "text": "config env"
+  },
+  {
+    "text": "config flatten"
+  },
+  {
+    "text": "config nu"
+  },
+  {
+    "text": "config reset"
+  },
+  {
+    "text": "config use-colors"
+  },
+  {
+    "text": "const"
+  },
+  {
+    "text": "continue"
+  },
+  {
+    "text": "cp"
+  },
+  {
+    "text": "date"
+  },
+  {
+    "text": "date format"
+  },
+  {
+    "text": "date from-human"
+  },
+  {
+    "text": "date humanize"
+  },
+  {
+    "text": "date list-timezone"
+  },
+  {
+    "text": "date now"
+  },
+  {
+    "text": "date to-timezone"
+  },
+  {
+    "text": "datetime"
+  },
+  {
+    "text": "debug"
+  },
+  {
+    "text": "debug env"
+  },
+  {
+    "text": "debug experimental-options"
+  },
+  {
+    "text": "debug info"
+  },
+  {
+    "text": "debug profile"
+  },
+  {
+    "text": "decode"
+  },
+  {
+    "text": "decode base32"
+  },
+  {
+    "text": "decode base32hex"
+  },
+  {
+    "text": "decode base64"
+  },
+  {
+    "text": "decode hex"
+  },
+  {
+    "text": "def"
+  },
+  {
+    "text": "def-env"
+  },
+  {
+    "text": "default"
+  },
+  {
+    "text": "describe"
+  },
+  {
+    "text": "detect"
+  },
+  {
+    "text": "detect columns"
+  },
+  {
+    "text": "detect type"
+  },
+  {
+    "text": "difference"
+  },
+  {
+    "text": "do"
+  },
+  {
+    "text": "drop"
+  },
+  {
+    "text": "drop column"
+  },
+  {
+    "text": "drop nth"
+  },
+  {
+    "text": "dt"
+  },
+  {
+    "text": "dt add"
+  },
+  {
+    "text": "dt diff"
+  },
+  {
+    "text": "dt format"
+  },
+  {
+    "text": "dt now"
+  },
+  {
+    "text": "dt part"
+  },
+  {
+    "text": "dt to"
+  },
+  {
+    "text": "dt utcnow"
+  },
+  {
+    "text": "du"
+  },
+  {
+    "text": "duration"
+  },
+  {
+    "text": "each"
+  },
+  {
+    "text": "each while"
+  },
+  {
+    "text": "echo"
+  },
+  {
+    "text": "else"
+  },
+  {
+    "text": "emoji"
+  },
+  {
+    "text": "encode"
+  },
+  {
+    "text": "encode base32"
+  },
+  {
+    "text": "encode base32hex"
+  },
+  {
+    "text": "encode base64"
+  },
+  {
+    "text": "encode hex"
+  },
+  {
+    "text": "enumerate"
+  },
+  {
+    "text": "error"
+  },
+  {
+    "text": "error make"
+  },
+  {
+    "text": "every"
+  },
+  {
+    "text": "exec"
+  },
+  {
+    "text": "exit"
+  },
+  {
+    "text": "explain"
+  },
+  {
+    "text": "explore"
+  },
+  {
+    "text": "explore config"
+  },
+  {
+    "text": "explore regex"
+  },
+  {
+    "text": "export"
+  },
+  {
+    "text": "export alias"
+  },
+  {
+    "text": "export const"
+  },
+  {
+    "text": "export def"
+  },
+  {
+    "text": "export extern"
+  },
+  {
+    "text": "export module"
+  },
+  {
+    "text": "export use"
+  },
+  {
+    "text": "export-env"
+  },
+  {
+    "text": "extern"
+  },
+  {
+    "text": "false"
+  },
+  {
+    "text": "file"
+  },
+  {
+    "text": "filesize"
+  },
+  {
+    "text": "fill"
+  },
+  {
+    "text": "filter"
+  },
+  {
+    "text": "find"
+  },
+  {
+    "text": "first"
+  },
+  {
+    "text": "flatten"
+  },
+  {
+    "text": "float"
+  },
+  {
+    "text": "for"
+  },
+  {
+    "text": "format"
+  },
+  {
+    "text": "format bits"
+  },
+  {
+    "text": "format date"
+  },
+  {
+    "text": "format duration"
+  },
+  {
+    "text": "format filesize"
+  },
+  {
+    "text": "format number"
+  },
+  {
+    "text": "format pattern"
+  },
+  {
+    "text": "from"
+  },
+  {
+    "text": "from csv"
+  },
+  {
+    "text": "from eml"
+  },
+  {
+    "text": "from ics"
+  },
+  {
+    "text": "from ini"
+  },
+  {
+    "text": "from json"
+  },
+  {
+    "text": "from kdl"
+  },
+  {
+    "text": "from md"
+  },
+  {
+    "text": "from msgpack"
+  },
+  {
+    "text": "from msgpackz"
+  },
+  {
+    "text": "from nuon"
+  },
+  {
+    "text": "from ods"
+  },
+  {
+    "text": "from parquet"
+  },
+  {
+    "text": "from plist"
+  },
+  {
+    "text": "from ssv"
+  },
+  {
+    "text": "from toml"
+  },
+  {
+    "text": "from toon"
+  },
+  {
+    "text": "from tsv"
+  },
+  {
+    "text": "from url"
+  },
+  {
+    "text": "from vcf"
+  },
+  {
+    "text": "from xlsx"
+  },
+  {
+    "text": "from xml"
+  },
+  {
+    "text": "from yaml"
+  },
+  {
+    "text": "from yml"
+  },
+  {
+    "text": "generate"
+  },
+  {
+    "text": "get"
+  },
+  {
+    "text": "glob"
+  },
+  {
+    "text": "grid"
+  },
+  {
+    "text": "group-by"
+  },
+  {
+    "text": "gstat"
+  },
+  {
+    "text": "hash"
+  },
+  {
+    "text": "hash md5"
+  },
+  {
+    "text": "hash sha256"
+  },
+  {
+    "text": "hash sha512"
+  },
+  {
+    "text": "headers"
+  },
+  {
+    "text": "help"
+  },
+  {
+    "text": "help aliases"
+  },
+  {
+    "text": "help commands"
+  },
+  {
+    "text": "help escapes"
+  },
+  {
+    "text": "help externs"
+  },
+  {
+    "text": "help modules"
+  },
+  {
+    "text": "help operators"
+  },
+  {
+    "text": "help pipe-and-redirect"
+  },
+  {
+    "text": "hide"
+  },
+  {
+    "text": "hide-env"
+  },
+  {
+    "text": "histogram"
+  },
+  {
+    "text": "history"
+  },
+  {
+    "text": "history import"
+  },
+  {
+    "text": "history session"
+  },
+  {
+    "text": "http"
+  },
+  {
+    "text": "http delete"
+  },
+  {
+    "text": "http get"
+  },
+  {
+    "text": "http head"
+  },
+  {
+    "text": "http options"
+  },
+  {
+    "text": "http patch"
+  },
+  {
+    "text": "http pool"
+  },
+  {
+    "text": "http post"
+  },
+  {
+    "text": "http put"
+  },
+  {
+    "text": "idx"
+  },
+  {
+    "text": "idx dirs"
+  },
+  {
+    "text": "idx drop"
+  },
+  {
+    "text": "idx files"
+  },
+  {
+    "text": "idx find"
+  },
+  {
+    "text": "idx init"
+  },
+  {
+    "text": "idx search"
+  },
+  {
+    "text": "idx status"
+  },
+  {
+    "text": "idx watch"
+  },
+  {
+    "text": "if"
+  },
+  {
+    "text": "ignore"
+  },
+  {
+    "text": "inc"
+  },
+  {
+    "text": "input"
+  },
+  {
+    "text": "input list"
+  },
+  {
+    "text": "input listen"
+  },
+  {
+    "text": "insert"
+  },
+  {
+    "text": "inspect"
+  },
+  {
+    "text": "int"
+  },
+  {
+    "text": "interleave"
+  },
+  {
+    "text": "intersect"
+  },
+  {
+    "text": "into"
+  },
+  {
+    "text": "into binary"
+  },
+  {
+    "text": "into bool"
+  },
+  {
+    "text": "into cell-path"
+  },
+  {
+    "text": "into datetime"
+  },
+  {
+    "text": "into duration"
+  },
+  {
+    "text": "into filesize"
+  },
+  {
+    "text": "into float"
+  },
+  {
+    "text": "into glob"
+  },
+  {
+    "text": "into int"
+  },
+  {
+    "text": "into matrix"
+  },
+  {
+    "text": "into record"
+  },
+  {
+    "text": "into semver"
+  },
+  {
+    "text": "into semver-range"
+  },
+  {
+    "text": "into sqlite"
+  },
+  {
+    "text": "into string"
+  },
+  {
+    "text": "into value"
+  },
+  {
+    "text": "is-admin"
+  },
+  {
+    "text": "is-empty"
+  },
+  {
+    "text": "is-not-empty"
+  },
+  {
+    "text": "is-redirected"
+  },
+  {
+    "text": "is-terminal"
+  },
+  {
+    "text": "items"
+  },
+  {
+    "text": "job"
+  },
+  {
+    "text": "job describe"
+  },
+  {
+    "text": "job flush"
+  },
+  {
+    "text": "job id"
+  },
+  {
+    "text": "job kill"
+  },
+  {
+    "text": "job list"
+  },
+  {
+    "text": "job recv"
+  },
+  {
+    "text": "job send"
+  },
+  {
+    "text": "job spawn"
+  },
+  {
+    "text": "job unfreeze"
+  },
+  {
+    "text": "join"
+  },
+  {
+    "text": "json path"
+  },
+  {
+    "text": "jwalk"
+  },
+  {
+    "text": "keybindings"
+  },
+  {
+    "text": "keybindings default"
+  },
+  {
+    "text": "keybindings list"
+  },
+  {
+    "text": "keybindings listen"
+  },
+  {
+    "text": "kill"
+  },
+  {
+    "text": "last"
+  },
+  {
+    "text": "length"
+  },
+  {
+    "text": "let"
+  },
+  {
+    "text": "let-env"
+  },
+  {
+    "text": "lines"
+  },
+  {
+    "text": "list"
+  },
+  {
+    "text": "load-env"
+  },
+  {
+    "text": "loop"
+  },
+  {
+    "text": "ls"
+  },
+  {
+    "text": "match"
+  },
+  {
+    "text": "math"
+  },
+  {
+    "text": "math abs"
+  },
+  {
+    "text": "math arccos"
+  },
+  {
+    "text": "math arccosh"
+  },
+  {
+    "text": "math arcsin"
+  },
+  {
+    "text": "math arcsinh"
+  },
+  {
+    "text": "math arctan"
+  },
+  {
+    "text": "math arctanh"
+  },
+  {
+    "text": "math avg"
+  },
+  {
+    "text": "math cbrt"
+  },
+  {
+    "text": "math ceil"
+  },
+  {
+    "text": "math cos"
+  },
+  {
+    "text": "math cosh"
+  },
+  {
+    "text": "math exp"
+  },
+  {
+    "text": "math floor"
+  },
+  {
+    "text": "math ln"
+  },
+  {
+    "text": "math log"
+  },
+  {
+    "text": "math max"
+  },
+  {
+    "text": "math median"
+  },
+  {
+    "text": "math min"
+  },
+  {
+    "text": "math mode"
+  },
+  {
+    "text": "math product"
+  },
+  {
+    "text": "math round"
+  },
+  {
+    "text": "math sin"
+  },
+  {
+    "text": "math sinh"
+  },
+  {
+    "text": "math sqrt"
+  },
+  {
+    "text": "math stddev"
+  },
+  {
+    "text": "math sum"
+  },
+  {
+    "text": "math tan"
+  },
+  {
+    "text": "math tanh"
+  },
+  {
+    "text": "math variance"
+  },
+  {
+    "text": "matrix"
+  },
+  {
+    "text": "matrix add"
+  },
+  {
+    "text": "matrix get-col"
+  },
+  {
+    "text": "matrix get-row"
+  },
+  {
+    "text": "matrix identity"
+  },
+  {
+    "text": "matrix into-nu"
+  },
+  {
+    "text": "matrix map"
+  },
+  {
+    "text": "matrix max"
+  },
+  {
+    "text": "matrix mean"
+  },
+  {
+    "text": "matrix multiply"
+  },
+  {
+    "text": "matrix reduce"
+  },
+  {
+    "text": "matrix reshape"
+  },
+  {
+    "text": "matrix scale"
+  },
+  {
+    "text": "matrix set-col"
+  },
+  {
+    "text": "matrix set-row"
+  },
+  {
+    "text": "matrix subtract"
+  },
+  {
+    "text": "matrix sum"
+  },
+  {
+    "text": "matrix transpose"
+  },
+  {
+    "text": "matrix zeros"
+  },
+  {
+    "text": "merge"
+  },
+  {
+    "text": "merge deep"
+  },
+  {
+    "text": "metadata"
+  },
+  {
+    "text": "metadata access"
+  },
+  {
+    "text": "metadata set"
+  },
+  {
+    "text": "mkdir"
+  },
+  {
+    "text": "mktemp"
+  },
+  {
+    "text": "module"
+  },
+  {
+    "text": "move"
+  },
+  {
+    "text": "mut"
+  },
+  {
+    "text": "mv"
+  },
+  {
+    "text": "nothing"
+  },
+  {
+    "text": "nu-check"
+  },
+  {
+    "text": "nu-highlight"
+  },
+  {
+    "text": "null"
+  },
+  {
+    "text": "number"
+  },
+  {
+    "text": "oneof"
+  },
+  {
+    "text": "open"
+  },
+  {
+    "text": "overlay"
+  },
+  {
+    "text": "overlay hide"
+  },
+  {
+    "text": "overlay list"
+  },
+  {
+    "text": "overlay new"
+  },
+  {
+    "text": "overlay use"
+  },
+  {
+    "text": "panic"
+  },
+  {
+    "text": "par-each"
+  },
+  {
+    "text": "parse"
+  },
+  {
+    "text": "path"
+  },
+  {
+    "text": "path basename"
+  },
+  {
+    "text": "path dirname"
+  },
+  {
+    "text": "path exists"
+  },
+  {
+    "text": "path expand"
+  },
+  {
+    "text": "path join"
+  },
+  {
+    "text": "path parse"
+  },
+  {
+    "text": "path relative-to"
+  },
+  {
+    "text": "path self"
+  },
+  {
+    "text": "path split"
+  },
+  {
+    "text": "path type"
+  },
+  {
+    "text": "peek"
+  },
+  {
+    "text": "permutations"
+  },
+  {
+    "text": "plugin"
+  },
+  {
+    "text": "plugin add"
+  },
+  {
+    "text": "plugin list"
+  },
+  {
+    "text": "plugin rm"
+  },
+  {
+    "text": "plugin stop"
+  },
+  {
+    "text": "plugin use"
+  },
+  {
+    "text": "polars"
+  },
+  {
+    "text": "polars agg"
+  },
+  {
+    "text": "polars agg-groups"
+  },
+  {
+    "text": "polars all-false"
+  },
+  {
+    "text": "polars all-true"
+  },
+  {
+    "text": "polars append"
+  },
+  {
+    "text": "polars arg-max"
+  },
+  {
+    "text": "polars arg-min"
+  },
+  {
+    "text": "polars arg-sort"
+  },
+  {
+    "text": "polars arg-true"
+  },
+  {
+    "text": "polars arg-unique"
+  },
+  {
+    "text": "polars arg-where"
+  },
+  {
+    "text": "polars as"
+  },
+  {
+    "text": "polars as-date"
+  },
+  {
+    "text": "polars as-datetime"
+  },
+  {
+    "text": "polars cache"
+  },
+  {
+    "text": "polars cast"
+  },
+  {
+    "text": "polars col"
+  },
+  {
+    "text": "polars collect"
+  },
+  {
+    "text": "polars columns"
+  },
+  {
+    "text": "polars concat"
+  },
+  {
+    "text": "polars concat-str"
+  },
+  {
+    "text": "polars contains"
+  },
+  {
+    "text": "polars convert-time-zone"
+  },
+  {
+    "text": "polars count"
+  },
+  {
+    "text": "polars count-null"
+  },
+  {
+    "text": "polars cumulative"
+  },
+  {
+    "text": "polars cut"
+  },
+  {
+    "text": "polars datepart"
+  },
+  {
+    "text": "polars decimal"
+  },
+  {
+    "text": "polars drop"
+  },
+  {
+    "text": "polars drop-duplicates"
+  },
+  {
+    "text": "polars drop-nulls"
+  },
+  {
+    "text": "polars dummies"
+  },
+  {
+    "text": "polars entropy"
+  },
+  {
+    "text": "polars explode"
+  },
+  {
+    "text": "polars expr-not"
+  },
+  {
+    "text": "polars fill-nan"
+  },
+  {
+    "text": "polars fill-null"
+  },
+  {
+    "text": "polars filter"
+  },
+  {
+    "text": "polars filter-with"
+  },
+  {
+    "text": "polars first"
+  },
+  {
+    "text": "polars flatten"
+  },
+  {
+    "text": "polars get"
+  },
+  {
+    "text": "polars get-day"
+  },
+  {
+    "text": "polars get-hour"
+  },
+  {
+    "text": "polars get-minute"
+  },
+  {
+    "text": "polars get-month"
+  },
+  {
+    "text": "polars get-nanosecond"
+  },
+  {
+    "text": "polars get-ordinal"
+  },
+  {
+    "text": "polars get-second"
+  },
+  {
+    "text": "polars get-week"
+  },
+  {
+    "text": "polars get-weekday"
+  },
+  {
+    "text": "polars get-year"
+  },
+  {
+    "text": "polars group-by"
+  },
+  {
+    "text": "polars horizontal"
+  },
+  {
+    "text": "polars implode"
+  },
+  {
+    "text": "polars integer"
+  },
+  {
+    "text": "polars into-df"
+  },
+  {
+    "text": "polars into-dtype"
+  },
+  {
+    "text": "polars into-lazy"
+  },
+  {
+    "text": "polars into-nu"
+  },
+  {
+    "text": "polars into-repr"
+  },
+  {
+    "text": "polars into-schema"
+  },
+  {
+    "text": "polars is-duplicated"
+  },
+  {
+    "text": "polars is-in"
+  },
+  {
+    "text": "polars is-not-null"
+  },
+  {
+    "text": "polars is-null"
+  },
+  {
+    "text": "polars is-unique"
+  },
+  {
+    "text": "polars join"
+  },
+  {
+    "text": "polars join-where"
+  },
+  {
+    "text": "polars last"
+  },
+  {
+    "text": "polars len"
+  },
+  {
+    "text": "polars list-contains"
+  },
+  {
+    "text": "polars lit"
+  },
+  {
+    "text": "polars lowercase"
+  },
+  {
+    "text": "polars map-batches"
+  },
+  {
+    "text": "polars math"
+  },
+  {
+    "text": "polars math abs"
+  },
+  {
+    "text": "polars math bitwise-and"
+  },
+  {
+    "text": "polars math bitwise-count-ones"
+  },
+  {
+    "text": "polars math bitwise-count-zeros"
+  },
+  {
+    "text": "polars math bitwise-leading-ones"
+  },
+  {
+    "text": "polars math bitwise-leading-zeros"
+  },
+  {
+    "text": "polars math bitwise-or"
+  },
+  {
+    "text": "polars math bitwise-trailing-ones"
+  },
+  {
+    "text": "polars math bitwise-trailing-zeros"
+  },
+  {
+    "text": "polars math bitwise-xor"
+  },
+  {
+    "text": "polars math cos"
+  },
+  {
+    "text": "polars math dot"
+  },
+  {
+    "text": "polars math exp"
+  },
+  {
+    "text": "polars math log"
+  },
+  {
+    "text": "polars math log1p"
+  },
+  {
+    "text": "polars math sign"
+  },
+  {
+    "text": "polars math sin"
+  },
+  {
+    "text": "polars math sqrt"
+  },
+  {
+    "text": "polars max"
+  },
+  {
+    "text": "polars mean"
+  },
+  {
+    "text": "polars median"
+  },
+  {
+    "text": "polars min"
+  },
+  {
+    "text": "polars n-unique"
+  },
+  {
+    "text": "polars not"
+  },
+  {
+    "text": "polars open"
+  },
+  {
+    "text": "polars otherwise"
+  },
+  {
+    "text": "polars over"
+  },
+  {
+    "text": "polars pivot"
+  },
+  {
+    "text": "polars profile"
+  },
+  {
+    "text": "polars qcut"
+  },
+  {
+    "text": "polars quantile"
+  },
+  {
+    "text": "polars query"
+  },
+  {
+    "text": "polars rename"
+  },
+  {
+    "text": "polars replace"
+  },
+  {
+    "text": "polars replace-time-zone"
+  },
+  {
+    "text": "polars reverse"
+  },
+  {
+    "text": "polars rolling"
+  },
+  {
+    "text": "polars sample"
+  },
+  {
+    "text": "polars save"
+  },
+  {
+    "text": "polars schema"
+  },
+  {
+    "text": "polars select"
+  },
+  {
+    "text": "polars selector"
+  },
+  {
+    "text": "polars selector all"
+  },
+  {
+    "text": "polars selector alpha"
+  },
+  {
+    "text": "polars selector alphanumeric"
+  },
+  {
+    "text": "polars selector array"
+  },
+  {
+    "text": "polars selector binary"
+  },
+  {
+    "text": "polars selector boolean"
+  },
+  {
+    "text": "polars selector by-dtype"
+  },
+  {
+    "text": "polars selector by-index"
+  },
+  {
+    "text": "polars selector by-name"
+  },
+  {
+    "text": "polars selector categorical"
+  },
+  {
+    "text": "polars selector contains"
+  },
+  {
+    "text": "polars selector date"
+  },
+  {
+    "text": "polars selector datetime"
+  },
+  {
+    "text": "polars selector decimal"
+  },
+  {
+    "text": "polars selector digit"
+  },
+  {
+    "text": "polars selector duration"
+  },
+  {
+    "text": "polars selector empty"
+  },
+  {
+    "text": "polars selector ends-with"
+  },
+  {
+    "text": "polars selector enum"
+  },
+  {
+    "text": "polars selector exclude"
+  },
+  {
+    "text": "polars selector first"
+  },
+  {
+    "text": "polars selector float"
+  },
+  {
+    "text": "polars selector integer"
+  },
+  {
+    "text": "polars selector last"
+  },
+  {
+    "text": "polars selector list"
+  },
+  {
+    "text": "polars selector matches"
+  },
+  {
+    "text": "polars selector nested"
+  },
+  {
+    "text": "polars selector not"
+  },
+  {
+    "text": "polars selector numeric"
+  },
+  {
+    "text": "polars selector object"
+  },
+  {
+    "text": "polars selector signed-integer"
+  },
+  {
+    "text": "polars selector starts-with"
+  },
+  {
+    "text": "polars selector string"
+  },
+  {
+    "text": "polars selector struct"
+  },
+  {
+    "text": "polars selector temporal"
+  },
+  {
+    "text": "polars selector unsigned-integer"
+  },
+  {
+    "text": "polars set"
+  },
+  {
+    "text": "polars set-with-idx"
+  },
+  {
+    "text": "polars shape"
+  },
+  {
+    "text": "polars shift"
+  },
+  {
+    "text": "polars slice"
+  },
+  {
+    "text": "polars sort-by"
+  },
+  {
+    "text": "polars std"
+  },
+  {
+    "text": "polars store-get"
+  },
+  {
+    "text": "polars store-ls"
+  },
+  {
+    "text": "polars store-rm"
+  },
+  {
+    "text": "polars str-join"
+  },
+  {
+    "text": "polars str-lengths"
+  },
+  {
+    "text": "polars str-replace"
+  },
+  {
+    "text": "polars str-replace-all"
+  },
+  {
+    "text": "polars str-slice"
+  },
+  {
+    "text": "polars str-split"
+  },
+  {
+    "text": "polars str-strip-chars"
+  },
+  {
+    "text": "polars strftime"
+  },
+  {
+    "text": "polars struct-json-encode"
+  },
+  {
+    "text": "polars sum"
+  },
+  {
+    "text": "polars summary"
+  },
+  {
+    "text": "polars take"
+  },
+  {
+    "text": "polars truncate"
+  },
+  {
+    "text": "polars unique"
+  },
+  {
+    "text": "polars unnest"
+  },
+  {
+    "text": "polars unpivot"
+  },
+  {
+    "text": "polars uppercase"
+  },
+  {
+    "text": "polars value-counts"
+  },
+  {
+    "text": "polars var"
+  },
+  {
+    "text": "polars when"
+  },
+  {
+    "text": "polars with-column"
+  },
+  {
+    "text": "port"
+  },
+  {
+    "text": "prepend"
+  },
+  {
+    "text": "print"
+  },
+  {
+    "text": "ps"
+  },
+  {
+    "text": "query"
+  },
+  {
+    "text": "query db"
+  },
+  {
+    "text": "query git"
+  },
+  {
+    "text": "query json"
+  },
+  {
+    "text": "query web"
+  },
+  {
+    "text": "query webpage-info"
+  },
+  {
+    "text": "query xml"
+  },
+  {
+    "text": "random"
+  },
+  {
+    "text": "random binary"
+  },
+  {
+    "text": "random bool"
+  },
+  {
+    "text": "random chars"
+  },
+  {
+    "text": "random float"
+  },
+  {
+    "text": "random int"
+  },
+  {
+    "text": "random pass"
+  },
+  {
+    "text": "random uuid"
+  },
+  {
+    "text": "range"
+  },
+  {
+    "text": "record"
+  },
+  {
+    "text": "reduce"
+  },
+  {
+    "text": "regex"
+  },
+  {
+    "text": "registry"
+  },
+  {
+    "text": "registry query"
+  },
+  {
+    "text": "reject"
+  },
+  {
+    "text": "rename"
+  },
+  {
+    "text": "return"
+  },
+  {
+    "text": "reverse"
+  },
+  {
+    "text": "rm"
+  },
+  {
+    "text": "roll"
+  },
+  {
+    "text": "roll down"
+  },
+  {
+    "text": "roll left"
+  },
+  {
+    "text": "roll right"
+  },
+  {
+    "text": "roll up"
+  },
+  {
+    "text": "rotate"
+  },
+  {
+    "text": "run"
+  },
+  {
+    "text": "run-external"
+  },
+  {
+    "text": "run-internal"
+  },
+  {
+    "text": "save"
+  },
+  {
+    "text": "schema"
+  },
+  {
+    "text": "scope"
+  },
+  {
+    "text": "scope aliases"
+  },
+  {
+    "text": "scope commands"
+  },
+  {
+    "text": "scope engine-stats"
+  },
+  {
+    "text": "scope externs"
+  },
+  {
+    "text": "scope modules"
+  },
+  {
+    "text": "scope variables"
+  },
+  {
+    "text": "select"
+  },
+  {
+    "text": "semver"
+  },
+  {
+    "text": "semver bump"
+  },
+  {
+    "text": "seq"
+  },
+  {
+    "text": "seq char"
+  },
+  {
+    "text": "seq date"
+  },
+  {
+    "text": "shuffle"
+  },
+  {
+    "text": "signature"
+  },
+  {
+    "text": "skip"
+  },
+  {
+    "text": "skip until"
+  },
+  {
+    "text": "skip while"
+  },
+  {
+    "text": "sleep"
+  },
+  {
+    "text": "slice"
+  },
+  {
+    "text": "sort"
+  },
+  {
+    "text": "sort-by"
+  },
+  {
+    "text": "source"
+  },
+  {
+    "text": "source-env"
+  },
+  {
+    "text": "split"
+  },
+  {
+    "text": "split cell-path"
+  },
+  {
+    "text": "split chars"
+  },
+  {
+    "text": "split column"
+  },
+  {
+    "text": "split list"
+  },
+  {
+    "text": "split row"
+  },
+  {
+    "text": "split words"
+  },
+  {
+    "text": "start"
+  },
+  {
+    "text": "stor"
+  },
+  {
+    "text": "stor create"
+  },
+  {
+    "text": "stor delete"
+  },
+  {
+    "text": "stor export"
+  },
+  {
+    "text": "stor import"
+  },
+  {
+    "text": "stor insert"
+  },
+  {
+    "text": "stor open"
+  },
+  {
+    "text": "stor reset"
+  },
+  {
+    "text": "stor update"
+  },
+  {
+    "text": "str"
+  },
+  {
+    "text": "str after"
+  },
+  {
+    "text": "str align"
+  },
+  {
+    "text": "str before"
+  },
+  {
+    "text": "str between"
+  },
+  {
+    "text": "str camel-case"
+  },
+  {
+    "text": "str capitalize"
+  },
+  {
+    "text": "str common-prefix"
+  },
+  {
+    "text": "str compress"
+  },
+  {
+    "text": "str contains"
+  },
+  {
+    "text": "str decompress"
+  },
+  {
+    "text": "str dedent"
+  },
+  {
+    "text": "str deunicode"
+  },
+  {
+    "text": "str distance"
+  },
+  {
+    "text": "str downcase"
+  },
+  {
+    "text": "str ends-with"
+  },
+  {
+    "text": "str escape-regex"
+  },
+  {
+    "text": "str expand"
+  },
+  {
+    "text": "str increment"
+  },
+  {
+    "text": "str indent"
+  },
+  {
+    "text": "str index-of"
+  },
+  {
+    "text": "str join"
+  },
+  {
+    "text": "str kebab-case"
+  },
+  {
+    "text": "str length"
+  },
+  {
+    "text": "str lowercase"
+  },
+  {
+    "text": "str pascal-case"
+  },
+  {
+    "text": "str replace"
+  },
+  {
+    "text": "str reverse"
+  },
+  {
+    "text": "str screaming-snake-case"
+  },
+  {
+    "text": "str shl-quote"
+  },
+  {
+    "text": "str shl-split"
+  },
+  {
+    "text": "str similarity"
+  },
+  {
+    "text": "str slug"
+  },
+  {
+    "text": "str snake-case"
+  },
+  {
+    "text": "str starts-with"
+  },
+  {
+    "text": "str stats"
+  },
+  {
+    "text": "str substring"
+  },
+  {
+    "text": "str title-case"
+  },
+  {
+    "text": "str trim"
+  },
+  {
+    "text": "str truncate"
+  },
+  {
+    "text": "str unescape"
+  },
+  {
+    "text": "str upcase"
+  },
+  {
+    "text": "str uppercase"
+  },
+  {
+    "text": "str wrap"
+  },
+  {
+    "text": "string"
+  },
+  {
+    "text": "sys"
+  },
+  {
+    "text": "sys cpu"
+  },
+  {
+    "text": "sys disks"
+  },
+  {
+    "text": "sys host"
+  },
+  {
+    "text": "sys mem"
+  },
+  {
+    "text": "sys net"
+  },
+  {
+    "text": "sys temp"
+  },
+  {
+    "text": "sys users"
+  },
+  {
+    "text": "table"
+  },
+  {
+    "text": "take"
+  },
+  {
+    "text": "take until"
+  },
+  {
+    "text": "take while"
+  },
+  {
+    "text": "tee"
+  },
+  {
+    "text": "term"
+  },
+  {
+    "text": "term query"
+  },
+  {
+    "text": "term size"
+  },
+  {
+    "text": "timeit"
+  },
+  {
+    "text": "to"
+  },
+  {
+    "text": "to csv"
+  },
+  {
+    "text": "to gui"
+  },
+  {
+    "text": "to html"
+  },
+  {
+    "text": "to json"
+  },
+  {
+    "text": "to kdl"
+  },
+  {
+    "text": "to md"
+  },
+  {
+    "text": "to msgpack"
+  },
+  {
+    "text": "to msgpackz"
+  },
+  {
+    "text": "to nuon"
+  },
+  {
+    "text": "to parquet"
+  },
+  {
+    "text": "to plist"
+  },
+  {
+    "text": "to text"
+  },
+  {
+    "text": "to toml"
+  },
+  {
+    "text": "to toon"
+  },
+  {
+    "text": "to tsv"
+  },
+  {
+    "text": "to txt"
+  },
+  {
+    "text": "to xml"
+  },
+  {
+    "text": "to yaml"
+  },
+  {
+    "text": "to yml"
+  },
+  {
+    "text": "touch"
+  },
+  {
+    "text": "transpose"
+  },
+  {
+    "text": "tree"
+  },
+  {
+    "text": "true"
+  },
+  {
+    "text": "try"
+  },
+  {
+    "text": "tui"
+  },
+  {
+    "text": "tui bind"
+  },
+  {
+    "text": "tui box"
+  },
+  {
+    "text": "tui button"
+  },
+  {
+    "text": "tui debug"
+  },
+  {
+    "text": "tui label"
+  },
+  {
+    "text": "tui log"
+  },
+  {
+    "text": "tui menu"
+  },
+  {
+    "text": "tui preview"
+  },
+  {
+    "text": "tui progress"
+  },
+  {
+    "text": "tui run"
+  },
+  {
+    "text": "tui search"
+  },
+  {
+    "text": "tui select"
+  },
+  {
+    "text": "tui split"
+  },
+  {
+    "text": "tui tab"
+  },
+  {
+    "text": "tui table"
+  },
+  {
+    "text": "tui textbox"
+  },
+  {
+    "text": "tui tree"
+  },
+  {
+    "text": "tutor"
+  },
+  {
+    "text": "ulimit"
+  },
+  {
+    "text": "umask"
+  },
+  {
+    "text": "uname"
+  },
+  {
+    "text": "union"
+  },
+  {
+    "text": "uniq"
+  },
+  {
+    "text": "uniq-by"
+  },
+  {
+    "text": "unlet"
+  },
+  {
+    "text": "update"
+  },
+  {
+    "text": "update cells"
+  },
+  {
+    "text": "upsert"
+  },
+  {
+    "text": "url"
+  },
+  {
+    "text": "url build-query"
+  },
+  {
+    "text": "url decode"
+  },
+  {
+    "text": "url encode"
+  },
+  {
+    "text": "url join"
+  },
+  {
+    "text": "url parse"
+  },
+  {
+    "text": "url split-query"
+  },
+  {
+    "text": "use"
+  },
+  {
+    "text": "values"
+  },
+  {
+    "text": "version"
+  },
+  {
+    "text": "version check"
+  },
+  {
+    "text": "view"
+  },
+  {
+    "text": "view blocks"
+  },
+  {
+    "text": "view files"
+  },
+  {
+    "text": "view ir"
+  },
+  {
+    "text": "view source"
+  },
+  {
+    "text": "view span"
+  },
+  {
+    "text": "watch"
+  },
+  {
+    "text": "where"
+  },
+  {
+    "text": "which"
+  },
+  {
+    "text": "while"
+  },
+  {
+    "text": "whoami"
+  },
+  {
+    "text": "window"
+  },
+  {
+    "text": "with-env"
+  },
+  {
+    "text": "wrap"
+  },
+  {
+    "text": "zip"
+  }
+]

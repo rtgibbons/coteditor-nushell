@@ -1,0 +1,15 @@
+{
+  "name": "coteditor-nushell",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Independent regex-based Nushell syntax definitions for CotEditor",
+  "license": "MIT",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "test": "python3 scripts/validate.py",
+    "package": "npm run build && npm test && python3 scripts/package.py"
+  }
+}

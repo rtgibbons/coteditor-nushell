@@ -1,0 +1,38 @@
+[
+  {
+    "pattern": "^[\\t ]*((?:export[\\t ]+)?def(?:-env)?)(?:[\\t ]+--[\\w-]+)*[\\t ]+([\\w\\-!]+|\"[^\"\\r\\n]+\"|'[^'\\r\\n]+'|`[^`\\r\\n]+`)",
+    "template": "$1 $2",
+    "kind": "function",
+    "description": "Custom commands, including quoted multiword names"
+  },
+  {
+    "pattern": "^[\\t ]*((?:export[\\t ]+)?extern)[\\t ]+([\\w\\-!]+|\"[^\"\\r\\n]+\"|'[^'\\r\\n]+'|`[^`\\r\\n]+`)",
+    "template": "$1 $2",
+    "kind": "function",
+    "description": "External command signatures"
+  },
+  {
+    "pattern": "^[\\t ]*((?:export[\\t ]+)?module)[\\t ]+([\\w\\-!]+|\"[^\"\\r\\n]+\"|'[^'\\r\\n]+'|`[^`\\r\\n]+`)",
+    "template": "$1 $2",
+    "kind": "container",
+    "description": "Modules"
+  },
+  {
+    "pattern": "^[\\t ]*((?:export[\\t ]+)?alias)[\\t ]+([\\w\\-!]+|\"[^\"\\r\\n]+\"|'[^'\\r\\n]+'|`[^`\\r\\n]+`)",
+    "template": "$1 $2",
+    "kind": "value",
+    "description": "Aliases"
+  },
+  {
+    "pattern": "^[\\t ]*((?:export[\\t ]+)?const)[\\t ]+([\\w-]+)",
+    "template": "$1 $2",
+    "kind": "value",
+    "description": "Constants"
+  },
+  {
+    "pattern": "^[\\t ]*#[\\t ]*(?:MARK:|region:)[\\t ]*(.+)$",
+    "template": "$1",
+    "kind": "mark",
+    "description": "Named comment sections"
+  }
+]

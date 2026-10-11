@@ -1,0 +1,70 @@
+{
+  "snapshotDate": "2026-10-10",
+  "grammars": [
+    {
+      "repository": "hustcer/nu-grammar",
+      "revision": "9b669bd8a5b1e72b96def25eddcb8553617014bc",
+      "url": "https://github.com/hustcer/nu-grammar",
+      "upstreamPath": "grammars/tmLanguage.json",
+      "vendoredPath": "vendor/nu-grammar/tmLanguage.json"
+    },
+    {
+      "repository": "nushell/vscode-nushell-lang",
+      "revision": "7d4a73285807e2b554ea0ebd839478ac83943306",
+      "url": "https://github.com/nushell/vscode-nushell-lang",
+      "upstreamPath": "syntaxes/nushell.tmLanguage.json",
+      "vendoredPath": "vendor/vscode-nushell-lang/nushell.tmLanguage.json"
+    }
+  ],
+  "files": [
+    {
+      "path": "vendor/nu-grammar/tmLanguage.json",
+      "repository": "hustcer/nu-grammar",
+      "revision": "9b669bd8a5b1e72b96def25eddcb8553617014bc",
+      "upstreamPath": "grammars/tmLanguage.json",
+      "sha256": "017bee0fc8a9822b12d1d9f194db249a237f46fecbd434a16db3bdb94d5ae2ac"
+    },
+    {
+      "path": "vendor/nu-grammar/LICENSE",
+      "repository": "hustcer/nu-grammar",
+      "revision": "9b669bd8a5b1e72b96def25eddcb8553617014bc",
+      "upstreamPath": "LICENSE",
+      "sha256": "2dc1f03f729c21902d869b4d8f8dc528fc730f4c6ad83fc128672bda0ad69196"
+    },
+    {
+      "path": "vendor/vscode-nushell-lang/nushell.tmLanguage.json",
+      "repository": "nushell/vscode-nushell-lang",
+      "revision": "7d4a73285807e2b554ea0ebd839478ac83943306",
+      "upstreamPath": "syntaxes/nushell.tmLanguage.json",
+      "sha256": "017bee0fc8a9822b12d1d9f194db249a237f46fecbd434a16db3bdb94d5ae2ac"
+    },
+    {
+      "path": "vendor/vscode-nushell-lang/LICENSE",
+      "repository": "nushell/vscode-nushell-lang",
+      "revision": "7d4a73285807e2b554ea0ebd839478ac83943306",
+      "upstreamPath": "LICENSE",
+      "sha256": "2dc1f03f729c21902d869b4d8f8dc528fc730f4c6ad83fc128672bda0ad69196"
+    },
+    {
+      "path": "vendor/fixtures/upstream-example.nu",
+      "repository": "nushell/vscode-nushell-lang",
+      "revision": "7d4a73285807e2b554ea0ebd839478ac83943306",
+      "upstreamPath": "example.nu",
+      "sha256": "8d5937808abcc41a8cef48e696f142ea224a23b9e80bf245f3f2830a2f8251e5"
+    },
+    {
+      "path": "vendor/fixtures/upstream-function.nu",
+      "repository": "nushell/vscode-nushell-lang",
+      "revision": "7d4a73285807e2b554ea0ebd839478ac83943306",
+      "upstreamPath": "tests/cases/function.nu",
+      "sha256": "207a78eb516e7987b3d71734bbe2877979e31a59eb2cbce0ec406c10a5867198"
+    },
+    {
+      "path": "vendor/fixtures/upstream-review.nu",
+      "repository": "nushell/vscode-nushell-lang",
+      "revision": "7d4a73285807e2b554ea0ebd839478ac83943306",
+      "upstreamPath": "tests/cases/review.nu",
+      "sha256": "dfb8af32c8b780beb794dbc79e33882cd5bdd47402110bf20dc433c8d17be729"
+    }
+  ]
+}

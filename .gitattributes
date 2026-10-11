@@ -1,0 +1,7 @@
+* text=auto eol=lf
+*.json text eol=lf
+*.yml text eol=lf
+*.md text eol=lf
+*.nu text eol=lf
+# Preserve upstream snapshots, including their original whitespace.
+vendor/** whitespace=-blank-at-eol,-blank-at-eof

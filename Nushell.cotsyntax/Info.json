@@ -1,0 +1,19 @@
+{
+  "kind": "code",
+  "fileMap": {
+    "extensions": [
+      "nu"
+    ],
+    "interpreters": [
+      "nu"
+    ]
+  },
+  "metadata": {
+    "version": "1.0.0",
+    "lastModified": "2026-10-10",
+    "distributionURL": "https://github.com/rtgibbons/coteditor-nushell",
+    "author": "The Nushell Project Developers; CotEditor syntax contributors",
+    "license": "MIT License\n\nCopyright (c) 2019 - 2023 The Nushell Project Developers\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n",
+    "description": "Regex-based Nushell syntax adapted from https://github.com/hustcer/nu-grammar (9b669bd8a5b1e72b96def25eddcb8553617014bc) and https://github.com/nushell/vscode-nushell-lang (7d4a73285807e2b554ea0ebd839478ac83943306). Both source grammars are identical at these revisions. Does not reproduce TextMate nesting or semantic language-server features."
+  }
+}

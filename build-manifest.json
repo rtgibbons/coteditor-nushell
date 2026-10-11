@@ -1,0 +1,11 @@
+{
+  "revisions": {
+    "hustcer/nu-grammar": "9b669bd8a5b1e72b96def25eddcb8553617014bc",
+    "nushell/vscode-nushell-lang": "7d4a73285807e2b554ea0ebd839478ac83943306"
+  },
+  "identicalGrammars": true,
+  "upstreamCommandCount": 774,
+  "completionCount": 796,
+  "nativeRegexRules": 27,
+  "outlineCount": 6
+}

@@ -1,0 +1,156 @@
+{
+  "comment": {
+    "inlines": [
+      {
+        "begin": "#"
+      }
+    ],
+    "blocks": []
+  },
+  "stringDelimiters": [
+    {
+      "begin": "r#'",
+      "end": "'#",
+      "isMultiline": true,
+      "description": "Raw string (1 hashes)"
+    },
+    {
+      "begin": "r##'",
+      "end": "'##",
+      "isMultiline": true,
+      "description": "Raw string (2 hashes)"
+    },
+    {
+      "begin": "r###'",
+      "end": "'###",
+      "isMultiline": true,
+      "description": "Raw string (3 hashes)"
+    },
+    {
+      "begin": "r####'",
+      "end": "'####",
+      "isMultiline": true,
+      "description": "Raw string (4 hashes)"
+    },
+    {
+      "begin": "r#####'",
+      "end": "'#####",
+      "isMultiline": true,
+      "description": "Raw string (5 hashes)"
+    },
+    {
+      "begin": "r######'",
+      "end": "'######",
+      "isMultiline": true,
+      "description": "Raw string (6 hashes)"
+    },
+    {
+      "begin": "r#######'",
+      "end": "'#######",
+      "isMultiline": true,
+      "description": "Raw string (7 hashes)"
+    },
+    {
+      "begin": "r########'",
+      "end": "'########",
+      "isMultiline": true,
+      "description": "Raw string (8 hashes)"
+    },
+    {
+      "begin": "r#########'",
+      "end": "'#########",
+      "isMultiline": true,
+      "description": "Raw string (9 hashes)"
+    },
+    {
+      "begin": "r##########'",
+      "end": "'##########",
+      "isMultiline": true,
+      "description": "Raw string (10 hashes)"
+    },
+    {
+      "begin": "r###########'",
+      "end": "'###########",
+      "isMultiline": true,
+      "description": "Raw string (11 hashes)"
+    },
+    {
+      "begin": "r############'",
+      "end": "'############",
+      "isMultiline": true,
+      "description": "Raw string (12 hashes)"
+    },
+    {
+      "begin": "r#############'",
+      "end": "'#############",
+      "isMultiline": true,
+      "description": "Raw string (13 hashes)"
+    },
+    {
+      "begin": "r##############'",
+      "end": "'##############",
+      "isMultiline": true,
+      "description": "Raw string (14 hashes)"
+    },
+    {
+      "begin": "r###############'",
+      "end": "'###############",
+      "isMultiline": true,
+      "description": "Raw string (15 hashes)"
+    },
+    {
+      "begin": "r################'",
+      "end": "'################",
+      "isMultiline": true,
+      "description": "Raw string (16 hashes)"
+    },
+    {
+      "begin": "$\"",
+      "end": "\"",
+      "isMultiline": true,
+      "escapeCharacter": "\\",
+      "description": "Interpolated double-quoted strings (opaque contents)"
+    },
+    {
+      "begin": "$'",
+      "end": "'",
+      "isMultiline": true,
+      "description": "Interpolated single-quoted strings (opaque contents)"
+    },
+    {
+      "begin": "\"",
+      "end": "\"",
+      "isMultiline": true,
+      "escapeCharacter": "\\",
+      "description": "Double-quoted strings"
+    },
+    {
+      "begin": "'",
+      "end": "'",
+      "isMultiline": true,
+      "description": "Single-quoted strings; backslash is literal"
+    },
+    {
+      "begin": "`",
+      "end": "`",
+      "isMultiline": true,
+      "description": "Backtick strings; backslash is literal"
+    }
+  ],
+  "indentation": {
+    "blockDelimiters": [
+      {
+        "begin": "{",
+        "end": "}"
+      },
+      {
+        "begin": "[",
+        "end": "]"
+      },
+      {
+        "begin": "(",
+        "end": ")"
+      }
+    ]
+  }
+}
