@@ -1,6 +1,6 @@
 # Initial validation
 
-This document describes build-environment checks for the initial 1.0.0 candidate. It does not certify compatibility with a particular installed CotEditor build.
+This document describes build-environment checks for version 1.0.0. The repository owner also reports successful manual import in CotEditor, but exact CotEditor/macOS versions were not supplied.
 
 ## Automated checks
 
@@ -14,7 +14,7 @@ The build is tested for byte-identical output on repeated runs. The install arch
 
 ## Not verified
 
-Actual import and visual rendering in CotEditor on macOS have not been tested. ICU library versions can differ from Apple's Foundation build, and regex-level tests do not exercise CotEditor's delimiter nesting, final highlight precedence, outline UI, or completion UI.
+No automated macOS/CotEditor integration test was performed, and detailed results from the owner's manual check were not recorded. ICU library versions can differ from Apple's Foundation build, and regex-level tests do not exercise CotEditor's delimiter nesting, final highlight precedence, outline UI, or completion UI.
 
 ## Manual release checklist
 

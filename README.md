@@ -8,7 +8,11 @@ The adaptation was built with AI assistance under the repository owner's directi
 
 ## Install
 
-1. Download this repository using GitHub's Code > Download ZIP menu, then extract it. Alternatively, clone the repository.
+**[Download Nushell for CotEditor 7+](https://github.com/rtgibbons/coteditor-nushell/releases/latest/download/Nushell.cotsyntax.zip)**
+
+For older CotEditor versions, download the [legacy YAML definition](https://github.com/rtgibbons/coteditor-nushell/releases/latest/download/Nushell.yml). Both files are available on the [Releases page](https://github.com/rtgibbons/coteditor-nushell/releases).
+
+1. Download `Nushell.cotsyntax.zip` above and extract it. You do not need to download the repository or install build tools.
 2. In CotEditor, open Settings > Format.
 3. Open the More menu below the available syntaxes list, choose Import, and select the extracted `Nushell.cotsyntax` package. Keep the package intact; do not select one of its internal JSON files.
 4. For CotEditor versions before 7, import `Nushell.yml` instead. CotEditor 7 can also convert legacy YAML, but the native package provides more accurate delimiter definitions ([CotEditor migration guidance](https://coteditor.com/news/2026/CotEditor_7.0.0)).
@@ -51,7 +55,7 @@ npm run package
 
 Validation additionally requires a discoverable ICU shared library. On Ubuntu, install it with `sudo apt-get install libicu-dev`; on other systems, provide ICU in the platform's shared-library search path. The workflow uses Ubuntu 24.04 and does not verify CotEditor's macOS UI.
 
-`npm run package` writes `dist/Nushell-CotEditor.zip`. Build and validation run locally against vendored snapshots without fetching upstream repositories; dependency installation and GitHub Actions require network access. The `private` field in `package.json` prevents accidental npm publication and does not determine GitHub repository visibility.
+`npm run package` writes the native-only `dist/Nushell.cotsyntax.zip`, the standalone `dist/Nushell.yml`, and an optional combined `dist/Nushell-CotEditor.zip`. Build and validation run locally against vendored snapshots without fetching upstream repositories; dependency installation and GitHub Actions require network access. The `private` field in `package.json` prevents accidental npm publication and does not determine GitHub repository visibility.
 
 See [development notes](docs/DEVELOPMENT.md) for source updates and [initial validation](docs/VALIDATION.md) for the tested scope.
 
@@ -59,7 +63,7 @@ See [development notes](docs/DEVELOPMENT.md) for source updates and [initial val
 
 The CotEditor adaptation, build and validation tooling, and documentation were prepared with AI assistance from Perplexity Computer under `rtgibbons`' direction. The original Nushell grammar and vendored fixtures remain attributed to their upstream authors; AI assistance does not replace those notices.
 
-Automated build, provenance, and regex checks were performed, but actual import and visual rendering in CotEditor on macOS have not been tested. Treat the generated definition as a maintained software artifact requiring review and testing, not as a guarantee of correctness.
+Automated build, provenance, and regex checks were performed, and the repository owner reports successful manual import in CotEditor. The CotEditor/macOS versions and detailed visual-check results were not recorded, and CI does not run the macOS application. Treat the generated definition as a maintained software artifact requiring review and testing, not as a guarantee of correctness.
 
 The initial commit includes `Co-authored-by: Perplexity Computer <perplexity-computer@ai.invalid>` to make the AI assistance visible in Git history. This synthetic, non-deliverable address is a disclosure label only; it does not represent a human contributor or a verified GitHub account.
 

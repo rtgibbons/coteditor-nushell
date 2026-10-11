@@ -34,4 +34,6 @@ Node has no third-party runtime dependencies for this project. Python uses pinne
 
 The personal repository is `rtgibbons/coteditor-nushell`. Pushing the source repository does not publish a versioned release or certify macOS compatibility.
 
-For a future GitHub release, build and validate, test import in CotEditor on macOS, create a matching version tag, and attach `dist/Nushell-CotEditor.zip`. Do not claim macOS validation until it has actually been performed.
+For a GitHub release, build and validate, review available manual-test evidence, create an annotated matching version tag, and attach `dist/Nushell.cotsyntax.zip` and `dist/Nushell.yml`. Keep these asset names stable so the README's latest-release download links continue to work.
+
+Use `gh release create` with `--verify-tag`, the exact tag, and the version's release-notes file. Verify downloaded asset hashes against the local files after publication. Manual testing was reported for the initial release, but version details were not supplied; do not describe it as automated or version-specific macOS validation.
